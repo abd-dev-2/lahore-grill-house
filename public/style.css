@@ -166,13 +166,14 @@ body {
     color: white;
 }
 
-.primary-btn:hover {
-    background-color: #c92f3b;
-}
 
 .secondary-btn:hover {
     background-color: white;
     color: #111;
+}
+
+.primary-btn:hover {
+    background-color: #c92f3b;
 }
 
 .about {
@@ -1001,4 +1002,28 @@ html {
     }
 
 
+}
+
+.wsecondary-btn {
+    padding: 14px 25px;
+
+    text-decoration: none;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+.wsecondary-btn {
+    border: 1px solid white;
+    color: white;
+}
+
+
+.wsecondary-btn:hover {
+    background-color: rgb(35, 192, 35);
+    color: #111;
+}
+
+.wsecondary-btn i {
+    margin-right: 8px;
+    font-size: 20px;
 }
